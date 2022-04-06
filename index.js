@@ -9,13 +9,13 @@ const port =process.env.PORT || 5000
 // doctors-portal-firebase-adminsdk.json
 
 //  JWT 
-const admin = require("firebase-admin");
+// const admin = require("firebase-admin");
 
-const serviceAccount = require('./doctors-portal-firebase-adminsdk.json');
+// const serviceAccount = require('./doctors-portal-firebase-adminsdk.json');
 
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount)
-});
+// admin.initializeApp({
+//   credential: admin.credential.cert(serviceAccount)
+// });
 
 
 
